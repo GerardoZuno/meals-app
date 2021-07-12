@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Random = () => {
+export const RandomMeal = () => {
     return (
         <div>
             
