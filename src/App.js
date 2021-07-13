@@ -3,7 +3,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {Categories} from './components/Categories/Categories'
-import {HomePage} from './components/HomePage/HomePage'
+import HomePage from './components/HomePage/HomePage'
 import {RandomMeal} from './components/RandomMeal/RandomMeal'
 
 
