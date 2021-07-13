@@ -28,6 +28,8 @@
       ul {
         display: flex;
         list-style: none;
+        padding: 10px;
+        margin: 0px;
       }
 
      
@@ -52,3 +54,65 @@
 .navbar span {
     color: orangered;
 }  
+
+@media (max-width: 560px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index: 50;
+  
+    &-heading {
+      h1 {
+        font-size: 20px;
+        margin: 0;
+         
+        span {
+          color: #f3b542;
+        }
+      }
+    }
+  
+    &-links {
+      ul {
+        display: flex;
+        list-style: none;
+       
+      }
+
+     
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 10px;
+        background: lighten($color: #000000, $amount: 15);
+        border-radius: 5px;
+        font-size: 15px;
+        transition: all 0.4s ease;
+  
+        &:hover{
+            color: #f3b542;
+        }
+      }
+    }
+  }
+
+.navbar h1 {
+  margin: 5px
+}
+
+.navbar-links u {
+   align-items: center; 
+}
+}
